@@ -1,9 +1,9 @@
-# Projeto Integrador IV
-## 🚦 Controle de Trânsito
-<img src="semaforo-inteligente.jpg">
+# 🚦 Controle de Trânsito
+<div align="center">
+  <img src="semaforo-inteligente.jpg">
+</div>
 
-
-> Internet das Coisas para melhorar o fluxo do trânsito. Cada semáforo dos cruzamentos de algumas
+Internet das Coisas para melhorar o fluxo do trânsito. Cada semáforo dos cruzamentos de algumas
 ruas é um nó de um sistema distribuído, que se comunicarão entre si, para organizar o trânsito.
 
 ### Ajustes e melhorias
@@ -44,11 +44,10 @@ Windows:
 ```
 <comando_de_instalação>
 ```
-## 🤝 Colaboradores
+## 👨‍💻 Colaboradores
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
-
-<table>
+<div align="center">
+  <table>
   <tr>
     <td align="center">
       <a href="#">
@@ -84,3 +83,4 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
   </tr>
 </table>
+</div>
