@@ -1,11 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Projeto Integrador IV</title>
+        <title>TRÁFEGA</title>
+        <link
+            rel="stylesheet"
+            href="{{url_for('static', filename='home/template.css')}}"
+        />
+        <link
+            rel="shortcut icon"
+            href="{{ url_for('static', filename='favicon/favicon.ico') }}"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
-        <h1>Projeto Integrador IV</h1>
+        <header>
+            <figure class="logo">
+                <img
+                    src="../../static/img/logo.svg"
+                    alt="Logo TRÁFEGA"
+                    loading="lazy"
+                />
+            </figure>
+            <button class="contate">ENTRAR</button>
+        </header>
+        <main>
+            <div>
+                <h3>Controle de Tráfego</h3>
+                <h1><u>T</u>RA<u>F</u>EG<u>A</u></h1>
+                <p>
+                    Melhore o desempenho do seu trajeto pelas ruas e avenidas
+                    <br />de sua cidade e gerencie as contigencias em seu
+                    caminho. <br />Com o
+                    <span>T</span>RA<span>F</span>EG<span>A</span>, você faz
+                    isso e muito mais!
+                </p>
+                <button>CONTATE-NOS</button>
+            </div>
+            <figure>
+                <img
+                    src="../../static/img/Imagem_de_fundo.jpg"
+                    alt="Veículo estelar"
+                />
+            </figure>
+        </main>
+        <footer></footer>
     </body>
 </html>

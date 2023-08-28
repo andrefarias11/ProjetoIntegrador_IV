@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #161616;
+    color: #fff;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+header {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem 5% 0px 5%;
+    align-items: flex-end;
+}
+header button {
+    background-color: #fff;
+    color: #161616;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 2rem;
+    box-shadow: 5px 10px 32px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+header figure {
+    width: 5%;
+}
+
+header figure img {
+    width: 100%;
+}
+
+main {
+    margin: 0% 0% 0px 5%;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+}
+
+main figure {
+    z-index: 2;
+}
+main div {
+    z-index: 10;
+    width: 50%;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: 400;
+    background: transparent;
+}
+
+main div h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+main div h1 {
+    font-size: 4.8rem;
+    margin: 1.6rem 0px;
+    letter-spacing: 1.6rem;
+}
+main div p {
+    font-size: 1.6rem;
+    line-height: 22px;
+    margin-bottom: 1.6rem;
+}
+main div h1 u:nth-child(1) {
+    text-decoration-color: #f00;
+}
+
+main div h1 u:nth-child(2) {
+    text-decoration-color: #ff0;
+}
+main div h1 u:nth-child(3) {
+    text-decoration-color: #008000;
+}
+main div p span:nth-child(3) {
+    color: #f00;
+}
+
+main div p span:nth-child(4) {
+    color: #ff0;
+}
+main div p span:nth-child(5) {
+    color: #008000;
+}
+
+main div button {
+    width: 150px;
+    height: 32px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+footer {
+    background-image: url("../img/ondinha1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-clip: inherit;
+    height: 200px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
