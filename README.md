@@ -6,6 +6,20 @@
 Internet das Coisas para melhorar o fluxo do trânsito. Cada semáforo dos cruzamentos de algumas
 ruas é um nó de um sistema distribuído, que se comunicarão entre si, para organizar o trânsito.
 
+### Documento do projeto
+
+- [Documento em Pdf](https://github.com/andrefarias11/ProjetoIntegrador_IV/blob/main/Documento/Documenta%C3%A7%C3%A3o%20PI4.pdf):
+
+
+###  OBS : O documento está passando por constantes updates 
+
+O documento PDF a seguir contém toda a documentação essencial para o projeto, incluindo detalhes sobre requisitos do sistema, análise estrutural e outras informações relevantes:
+
+* Documento de Requisitos do Sistema: Este documento abrange os requisitos funcionais e não funcionais do sistema, especificando o que o sistema deve fazer e como deve se comportar.
+* Documento do Modelo Arquitetural: Este documento descreve a arquitetura do sistema, incluindo componentes-chave, interações e visão geral da estrutura do projeto.
+
+Essa documentação é crucial para compreender o projeto, suas metas e funcionalidades, e é uma referência valiosa para todos os envolvidos no desenvolvimento e implementação do sistema.
+
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
